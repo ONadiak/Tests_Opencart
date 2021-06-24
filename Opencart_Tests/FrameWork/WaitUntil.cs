@@ -12,9 +12,6 @@ namespace Opencart_Tests.FrameWork
             try
             {
                 new WebDriverWait(webDriver, TimeSpan.FromSeconds(10)).Until(ExpectedConditions.UrlContains(location));
-
-
-
             }
             catch (WebDriverTimeoutException ex)
             {
